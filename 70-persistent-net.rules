@@ -1,0 +1,10 @@
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="84:16:f9:02:fe:e2", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth7"
+
+# PCI device 0x1969:0x1063 (atl1c)
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="84:16:f9:02:55:ea", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth3"
+
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="18:d6:c7:06:fe:8c", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth4"
+
+
+# PCI device 0x1186:0x4300 (r8169)
+
